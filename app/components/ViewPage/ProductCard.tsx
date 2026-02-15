@@ -63,12 +63,12 @@ const ProductCard = ({ loading = false, product, from = "default", cb }: Product
   };
 
   if (loading || !product) {
-    return <Skeleton className="border rounded-sm h-[116px] m-2 w-[255px]" />;
+    return <Skeleton className="border rounded-sm h-29 m-2 w-63.75" />;
   }
 
   if(!learning){
     return (
-    <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 0.95}}} className={"border-2 rounded-md p-2 text-center w-40 sm:w-[180px] md:w-[200px] flex flex-col items-center gap-2 shadow-sm "}>
+    <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 0.95}}} className={"border-2 rounded-md p-2 text-center w-40 sm:w-45 md:w-50 flex flex-col items-center gap-2 shadow-sm "}>
       <h2 className="text-md font-extrabold">
         <Link href={`/${locale ?? "en-US"}/view/${product.id_public}`}>
           {product.name}
@@ -119,7 +119,7 @@ const ProductCard = ({ loading = false, product, from = "default", cb }: Product
   );
   }
   return (
-    <motion.div initial={{opacity: 0.1}} animate={{opacity: 1, alignItems: "center", transition: {duration: 0.95}}}  className={"border-2 rounded-md p-2 text-center w-40 sm:w-[180px] md:w-[200px] flex flex-col items-center gap-2 shadow-sm "}>
+    <motion.div initial={{opacity: 0.1}} animate={{opacity: 1, alignItems: "center", transition: {duration: 0.95}}}  className={"border-2 rounded-md p-2 text-center w-40 sm:w-45 md:w-50 flex flex-col items-center gap-2 shadow-sm "}>
       <h2 className="text-md font-extrabold">
         <Link href={`/${locale ?? "en-US"}/view/${product.id_public}`}>
           {product.name}
