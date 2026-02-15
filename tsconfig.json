@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "puter.d.ts",
+    "global.d.ts",
+    ".next/types/**/*.ts",
+    "theme-provider.jsx",
+    "app/[locale]/api/data/route.js",
+    "app/[locale]/api/data/[id]/route.js",
+    "app/[locale]/dashboard/page.jsx",
+    "app/api/migrateImages/route.ts",
+    "app/api/uploadToCloud/route.js",
+    "app/api/getData/route.js",
+    "app/api/ai/llm.js",
+    "app/middleware.js",
+    "app/[locale]/ai/ModelDropdown.tsx",
+    "middleware.js",
+    "next.config.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
