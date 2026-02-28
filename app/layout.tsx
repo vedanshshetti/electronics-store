@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Footer from "./Footer";
 import React, { Suspense } from "react";
+import { Analytics } from "@vercel/analytics/next";
 
 
 
@@ -39,7 +40,7 @@ const RootLayout= async function RootLayout({
     <main className="grow pt-16">{children}</main>
     <Footer />
     </Suspense>
-
+    <Analytics />
 </body>
     </html>
   );
