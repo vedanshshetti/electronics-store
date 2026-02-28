@@ -32,19 +32,6 @@ export function proxy(req: NextRequest) {
     return response;
   }
 
-  // ─────────────────────────────────────────────
-  // 2. Protect home routes
-  // ─────────────────────────────────────────────
-  const session = req.cookies.get("vaynix_session")?.value;
-  const path = req.nextUrl.pathname;
-
-  const isHome = path.includes("/view") || path.includes("/ai") ||  path.includes("/wishlist") || path.includes("/home"); 
-
-  if (isHome && !session) {
-    const url = req.nextUrl.clone();
-    url.pathname = "/en-US/login";
-    return NextResponse.redirect(url);
-  }
 
   // ─────────────────────────────────────────────
   // 3. Allow request to continue
