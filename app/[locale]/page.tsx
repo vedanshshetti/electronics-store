@@ -2,7 +2,7 @@
 
 import { useLocale } from "@/locales/index";
 import { redirect, useParams } from 'next/navigation';
-import Ad from '../../components/Ad';
+import Ad from '../components/Ad';
 import { Input } from '@/components/ui/input';
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
