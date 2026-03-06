@@ -36,7 +36,8 @@
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
     "tailwind-merge": "^3.2.0",
-    "vaul": "^1.1.2"
+    "vaul": "^1.1.2",
+    "vercel": "^50.28.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

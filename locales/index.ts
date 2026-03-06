@@ -298,16 +298,7 @@ export function useLocale() {
         "kn-IN": "ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಇಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ...",
         "it-IT": "Digita qui la tua domanda...",
         "es-ES": "Escribe tu pregunta aquí..."
-      },
-      updateInfo:{
-  "en-US": "NEW UPDATE! You can now see when the specific model you \n are using was last updated, to ensure your results are accurate!", 
-  "de-DE": "NEUES UPDATE! Sie können jetzt sehen, wann das von Ihnen \n verwendete Modell zuletzt aktualisiert wurde, um sicherzustellen, dass Ihre Ergebnisse korrekt sind.", 
-  "fr-FR": "NOUVELLE MISE À JOUR ! Vous pouvez désormais voir quand le modèle \n que vous utilisez a été mis à jour pour la dernière fois, afin de garantir l'exactitude de vos résultats.", 
-  "hi-IN": "नया अपडेट! अब आप देख सकते हैं कि आप जो मॉडल उपयोग कर रहे हैं वह \n आख़िरी बार कब अपडेट हुआ था, ताकि आपके परिणाम सटीक हों।", 
-  "kn-IN": "ಹೊಸ ಅಪ್‌ಡೇಟ್! ನೀವು ಬಳಸುತ್ತಿರುವ ಮಾದರಿಯನ್ನು ಕೊನೆಯದಾಗಿ ಯಾವಾಗ ನವೀಕರಿಸಲಾಗಿದೆ ಎಂದು ಈಗ ನೋಡಬಹುದು, ನಿಮ್ಮ ಫಲಿತಾಂಶಗಳು ಸರಿಯಾಗಿರಲು.", 
-  "it-IT": "NUOVO AGGIORNAMENTO! Ora puoi vedere quando il modello specifico che stai usando è stato aggiornato l'ultima volta, per assicurarti che i tuoi risultati siano accurati.", 
-  "es-ES": "¡NUEVA ACTUALIZACIÓN! Ahora puedes ver cuándo se actualizó por última vez el modelo que estás usando, para garantizar que tus resultados sean precisos."
-}
+      }
     }
   }
 };

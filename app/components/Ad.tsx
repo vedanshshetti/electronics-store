@@ -7,25 +7,20 @@ import React, { useEffect, useState } from 'react';
 const Ad: React.FC = () => {
   const ads = [
     {
-      title: "Samsung Galaxy S24 Ultra",
-      link: "/en/view/14",
-      img: "/ad-images/samsung-galaxy-s24-ultra.jpg"
+      title: "Samsung Galaxy S26 Ultra",
+      link: "/en/view/33",
+      img: "/ad-images/samsung-galaxy-s26-ultra.jpg"
     },
     {
-      title: "Apple MacBook Air M3",
+      title: "Apple MacBook Air M4 Max",
       link: "/en/view/34",
-      img: "/ad-images/macbook-air-m3.jpg" 
+      img: "/ad-images/macbook-air-m4m.jpg" 
     },
     {
       title: "Xiaomi Redmi Buds 6 Play",
       link: "/en/view/147",
       img: "/ad-images/redmi-buds-6-play.jpg" 
-    },
-    {
-      title: "Samsung Galaxy S25 Ultra",
-      link: "/en/view/33",
-      img: "/ad-images/samsung-galaxy-s25-ultra.jpg"
-    },
+    }
   ];
 
   const [currentAd, setCurrentAd] = useState(0);

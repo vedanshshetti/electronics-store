@@ -44,9 +44,6 @@ export default function HomePage() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-6 bg-gray-100">
       <h1 className="text-3xl font-bold mb-0.5">{translations.ai.askAI[locale]}</h1>
-      <p className='text-md font-semibold mb-4 text-red-600'>
-        {translations.ai.updateInfo[locale]}
-        </p>
       <textarea
         value={query}
         onChange={(e) => setQuery(e.target.value)}
