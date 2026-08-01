@@ -1,7 +1,7 @@
-NCOSS - NON-COMMERCIAL OPEN SOURCE SOFTWARE LICENSE
+NCOSS-GU - NON-COMMERCIAL OPEN SOURCE SOFTWARE GENERAL-USE LICENSE
 (Based off of the MIT License)
 
-SPDX-Identifier: LicenseRef-NCOSS-1.0
+SPDX-Identifier: LicenseRef-NCOSS-GU
 
 ====================================================================================================
 
@@ -16,9 +16,7 @@ purposes only, subject to the following conditions:
      The term "Commercial Use" is clearly defined below.
 
   2. Any republications of the Software (the term "republications", being defined below)
-     must attribute EITHER the original publication at
-     https://github.com/vedanshshetti/electronics-store OR the creator of the Software
-     at https://github.com/vedanshshetti. 
+     must attribute EITHER the original publication or the original publisher / author.
 
   3. Copies or republications of existing republications (the term "republications", being
      defined below), are subject to the above conditions as well, most notably
