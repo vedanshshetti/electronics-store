@@ -16,14 +16,14 @@ const Sidebar: React.FC = () => {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className={`fixed top-18 ${isOpen ? "left-12" : "left-2"} z-50 bg-gray-800 text-white p-2 rounded-md shadow-md focus:outline-none`}
+        className={`fixed top-18 ${isOpen ? "left-24" : "left-2"} z-50 bg-gray-800 text-white ${isOpen ? "p-2.5" : "p-3"} transition-discrete duration-300 rounded-md shadow-md focus:outline-none`}
       >
         {isOpen ? '✕' : '☰'}
       </button>
 
       {/* Sidebar */}
       <aside
-        className={`fixed left-0 top-16 h-screen bg-gray-900 text-white shadow-lg z-40 overflow-y-auto transition-all duration-700
+        className={`fixed left-0 ${isOpen ? "pr-32" : ""} top-16 h-screen bg-gray-900 text-white shadow-lg z-40 overflow-y-auto transition-all duration-700
         ${isOpen ? 'w-24 p-2' : 'w-0 p-0 overflow-hidden'}`}
       >
         <div className="flex flex-col space-y-6">

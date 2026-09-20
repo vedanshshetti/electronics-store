@@ -36,8 +36,7 @@
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
     "tailwind-merge": "^3.2.0",
-    "vaul": "^1.1.2",
-    "vercel": "^50.28.0"
+    "vaul": "^1.1.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -46,6 +45,6 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.2.9",
-    "typescript": "^5"
+    "typescript": "^6.0.3"
   }
 }

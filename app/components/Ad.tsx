@@ -9,17 +9,17 @@ const Ad: React.FC = () => {
     {
       title: "Samsung Galaxy S26 Ultra",
       link: "/en/view/33",
-      img: "/ad-images/samsung-galaxy-s26-ultra.jpg"
+      img: "/ad-images/samsung-galaxy-s26-ultra.webp"
     },
     {
       title: "Apple MacBook Air M4 Max",
       link: "/en/view/34",
-      img: "/ad-images/macbook-air-m4m.jpg" 
+      img: "/ad-images/macbook-air-m4m.webp" 
     },
     {
       title: "Xiaomi Redmi Buds 6 Play",
       link: "/en/view/147",
-      img: "/ad-images/redmi-buds-6-play.jpg" 
+      img: "/ad-images/redmi-buds-6-play.webp" 
     }
   ];
 
@@ -35,7 +35,7 @@ const Ad: React.FC = () => {
   const { title, link, img } = ads[currentAd];
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 mb-6 max-w-screen-lg mx-auto text-center">
+    <div className="bg-white shadow-lg rounded-lg p-6 mb-6 max-w-5xl mx-auto text-center">
       <h3 className="text-xl font-bold mb-2">
       <Link
         href={link}
